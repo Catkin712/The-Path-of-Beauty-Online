@@ -8,6 +8,14 @@
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
 
+# 内部工作文档（文案清单、书影拍摄建议）留在仓库里，但不对外发布。
+# force = true 才能盖过"同名静态文件优先"的默认行为。
+[[redirects]]
+  from = "/docs/*"
+  to = "/"
+  status = 301
+  force = true
+
 # Artwork changes rarely; a month is plenty
 [[headers]]
   for = "/assets/img/*"
