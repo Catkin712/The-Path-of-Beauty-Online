@@ -1,0 +1,15 @@
+# working scratch: source scans, screenshots, scripts
+_tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editors
+.vscode/
+.idea/
+
+# netlify
+.netlify/
+node_modules/
